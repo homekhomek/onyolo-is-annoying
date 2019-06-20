@@ -1,0 +1,43 @@
+#outerLoad {
+  position: absolute;
+  left: 25%;
+  width:50%;
+  height: 50px;
+  top: calc(50vh - 25px);
+
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #899fc1;
+  border-width: 5px;
+  transition: all 0.5s ease;
+}
+
+#msg {
+  font-family: 'Kalam', cursive;
+  position: absolute;
+  left: 25%;
+  width:50%;
+  top: 10vh;
+
+  font-size: 45px;
+  color:#899fc1;
+  padding: 20px;
+  text-align:center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #899fc1;
+  border-width: 5px;
+
+  opacity: 0;
+  transition: all 4s ease;
+}
+
+#innerLoad {
+  height: 100%;
+  left:0;
+  position: absolute;
+  background-color: #899fc1;
+  width: 0;
+
+  transition: all 0.75s ease;
+}
